@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewreport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Scrapper</title>
+    <link rel="stylesheet", href="./css_file/style.css">
+</head>
+<body>
+    <div id="Heading">
+        <h1 class="Heading">Youtube Scarpper Search Page</h1>
+    </div>
+    <div class="container">
+        <form action="https://www.youtube.com/results?search_query=" method="get" class="search-bar">
+            <input type="text" placeholder="enter video url" name="search">
+            <button type="submit"><img src="./images/search.png"></button>
+        </form>
+    </div>
+    <div id="count">
+        <label id="videos-count-label">Select No. of videos</label>
+        <input type="number" id="no-of-videos" value="1" min="1" max="50">
+    </div>
+</body>
+</html>
