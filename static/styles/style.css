@@ -1,0 +1,105 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E0FFFF;
+    /* background-image: url("./images/background.jpg"); */
+}
+
+.container{
+    width: 100%;
+    min-height: 30vh;
+    padding: 4%;
+    /* background-color: rgb(185, 108, 108); */
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Heading{
+    color: #1589FF;
+    /* background-image: linear-gradient(rgba(0,8,51,3),rgba(0,8,51,3)),url("./images/background.jpg"); */
+    /* background-color: rgb(90, 109, 214); */
+    text-align: center;
+    padding: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1cm;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(190, 172, 172, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 12px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+::placeholder{
+    color:#cac7ff;
+}
+
+.search-bar button img{
+    width: 60px;
+    border-radius: 40px;
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #505da5;
+    cursor: pointer;
+}
+#no-of-videos{
+    border: radius(50px);
+    background: transparent;
+    width: 12%;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(4px) saturate(180%);
+    color: white;
+}
+#count{
+    justify-content: center;
+    padding: 2px 2px;
+    max-width: 350px;
+    background: rgba(190, 172, 172, 0.2);
+    border-radius: 60px;
+    background-position: center;
+    background-size:cover;
+    left: 0px;
+    display: flex;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+#videos-count-label{
+    /* background-color: aqua; */
+    background: transparent;
+    position: relative;
+    padding-right: 2px;
+    padding-left: 35px;
+    font-size: 18px;
+    color: #6baeea;
+    top: 24px;
+    width: 60%;
+}
+
